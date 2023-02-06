@@ -30,8 +30,9 @@ function printError(request, apiResponse, city) {
 }
 
 function printElements(apiResponse, city) {
+  let celsiustemp = (apiResponse.main.temp -272.2).toFixed(2);
   document.querySelector('#showResponse').innerText = `The Humitdity in ${city} is ${apiResponse.main.humidity}%.
-  The temperature in Kelvins is ${apiResponse.main.temp} degrees.`;
+  The temperature in Kelvins is ${apiResponse.main.temp} degrees. The temperature in celcius is ` + celsiusTemp ;
 }
 
 function handleFormSubmission(event) {
