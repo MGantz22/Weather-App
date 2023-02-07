@@ -1,7 +1,7 @@
 # _Weather App_
 
 
-#### By _Ashe Urban, Mitchell Gantz, and David Jandron_
+#### By _Mitchell Gantz_
 
 #### _This project demonstrates basic API setup_
 
@@ -48,4 +48,4 @@ _Lesson prompt:_ https://www.learnhowtoprogram.com/intermediate-javascript/async
 
 _MIT_
 
-Copyright (c) _2023_ _Ashe Urban_ _Mitchell Gantz_ _David Jandron_
+Copyright (c) _2023_  _Mitchell Gantz_
